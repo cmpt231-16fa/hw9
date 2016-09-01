@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "HW1: CMPT231"
-subtitle: Lecture 1, ch1-3
+title: "HW9: CMPT231"
+subtitle: Lecture 11-12, ch23-25
 ---
 
 {% include policies.md %}
 
-### HW1 (20pts)
+### HW9 (40pts)
 1. *(5pts)* 
