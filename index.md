@@ -21,11 +21,11 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
     Consider vertices and neighbours in alphabetical order.
   + (c) *(5 pts)* Demonstrate the **Bellman-Ford** algorithm
     on the graph for shortest-paths from the source `a`.
-1. Given a weighted undirected graph *G = (V, E, w)*
-  with *w(u,v)* > 0 &forall; *(u,v)* &in; *E*,
+1. Given a weighted undirected graph \`G = (V, E, w)\`
+  with \`w(u,v) > 0 forall (u,v) in E\`,
   consider **increasing** each edge weight by 1: <br/>
-  Let *w'(u,v)* = *w(u,v)* + 1 &forall; *(u,v)* &in; *E*,
-  and *G' = (V, E, w')*.
+  Let \`w'(u,v) = w(u,v) + 1 forall (u,v) in E\`,
+  and \`G' = (V, E, w')\`.
   + (a) *(5pts)* **Prove** or disprove via counterexample:
   **MST**s are preserved by this transformation.
   I.e., if *T* is an MST of *G*, then *T* is also an MST of *G'*.
