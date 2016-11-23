@@ -10,7 +10,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 {% include programming.md %}
 
 ### HW9 (40pts)
-1. Consider the following weighted undirected graph: <br/> 
+1. Consider the following **weighted undirected** graph: <br/> 
   ![MST](img/hw9-1.svg) <br/>
   Where there is a choice, consider vertices in **alphabetical** order,
   and edges in **lexicographic** order of endpoints:
@@ -22,9 +22,9 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   + (c) *(4 pts)* Demonstrate the **Bellman-Ford** algorithm
     on the graph for shortest-paths from the source `a`.
 1. Given a weighted undirected graph \`G = (V, E, w)\`
-  with \`w(u,v) > 0 forall (u,v) in E\`,
+  with \`w(u,v) > 0, forall (u,v) in E\`,
   consider **increasing** each edge weight by 1: <br/>
-  Let \`w'(u,v) = w(u,v) + 1 forall (u,v) in E\`,
+  Let \`w'(u,v) = w(u,v) + 1, forall (u,v) in E\`,
   and \`G' = (V, E, w')\`.
   + (a) *(3 pts)* **Prove** or disprove via counterexample:
   **MST**s are preserved by this transformation.
@@ -36,9 +36,25 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 1. **Programming project:** Implement **Prim's algorithm** for minimum spanning tree.
   Input format is discussed below. <br/>
   You may use a library for priority queue
-  (e.g., [Python's `heapq`](https://docs.python.org/3.0/library/heapq.html);
+  (e.g., [Python's `heapq`](https://docs.python.org/3.0/library/heapq.html));
   you don't have to implement it yourself.
   + *(12 pts)* Correct, working **code**.
   + *(5 pts)* **Documentation**: write-up, readable code, good identifiers, etc.
   + *(5 pts)* **Tests**, including edge cases, etc.
   + *(4 pts extra credit)* A nice **graphical user interface**.
+
+**Input format**: a weighted **edge list** in plain text:
+```
+<num vertices>
+<num edges>
+<source> <dest> <weight>
+<source> <dest> <weight>
+...
+```
+Some test input
+(from [Sedgwick + Wayne](http://algs4.cs.princeton.edu/43mst/)):
++ [tinyEWG.txt](http://algs4.cs.princeton.edu/43mst/tinyEWG.txt) (8 vertices, 16 edges)
++ [mediumEWG.txt](http://algs4.cs.princeton.edu/43mst/mediumEWG.txt) (250 vertices, 1,273 edges)
++ [1000EWG.txt](http://algs4.cs.princeton.edu/43mst/1000EWG.txt) (1,000 vertices, 8,433 edges)
++ [10000EWG.txt](http://algs4.cs.princeton.edu/43mst/10000EWG.txt) (10,000 vertices, 61,731 edges)
++ [largeEWG.txt](http://algs4.cs.princeton.edu/43mst/largeEWG.txt) (one million vertices, 7,586,063 edges)
