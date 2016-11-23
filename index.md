@@ -7,6 +7,8 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 {% include policies.md %}
 
+{% include programming.md %}
+
 ### HW9 (40pts)
 1. *(5 pts)* Demonstrate **Prim's** algorithm on the following weighed undirected graph. Consider vertices in alphabetical order.
   ![MST](img/hw9-1.svg)
