@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "HW9: CMPT231"
-subtitle: "Lecture 11-12, ch23-25"
+subtitle: "Lecture 11, ch23-24"
 ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 ---
 
