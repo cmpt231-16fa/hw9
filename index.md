@@ -19,8 +19,10 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
     minimum spanning tree algorithm on the graph.
   + (b) *(4 pts)* Demonstrate **Prim's** algorithm on the graph,
     starting at vertex `a`.
-  + (c) *(4 pts)* Demonstrate the **Bellman-Ford** algorithm
-    on the graph for shortest-paths from the source `a`.
+1. *(4 pts)* Demonstrate the **Bellman-Ford** algorithm
+  on the weighted directed graph below
+  for shortest-paths from the source `a`.
+  (Iterate over edges in lexicographic order.)
 1. Given a weighted undirected graph \`G = (V, E, w)\`
   with \`w(u,v) > 0, forall (u,v) in E\`,
   consider **increasing** each edge weight by 1: <br/>
