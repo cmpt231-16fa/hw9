@@ -22,7 +22,8 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 1. *(4 pts)* Demonstrate the **Bellman-Ford** algorithm
   on the weighted directed graph below
   for shortest-paths from the source `a`.
-  (Iterate over edges in lexicographic order.)
+  (Iterate over edges in lexicographic order.)<br/>
+  ![BF](img/hw9-2.svg)
 1. Given a weighted undirected graph \`G = (V, E, w)\`
   with \`w(u,v) > 0, forall (u,v) in E\`,
   consider **increasing** each edge weight by 1: <br/>
