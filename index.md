@@ -28,6 +28,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   Iterate over edges in lexicographic order,
   and show `v.d` for all vertices after each iteration.
   + How many **iterations** were needed to achieve convergence? 
+  + Show the **tree** of shortest-paths to all vertices from `a`.
   + ![BF](img/hw9-2.svg)
 1. Given a weighted undirected graph \`G = (V, E, w)\`
   with \`w(u,v) > 0, forall (u,v) in E\`,
