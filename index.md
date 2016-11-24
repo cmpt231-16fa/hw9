@@ -43,7 +43,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   + *(5 pts)* **Tests**, including edge cases, etc.
   + *(4 pts extra credit)* A nice **graphical user interface**.
 
-**Input format**: a weighted **edge list** in plain text:
+**Input format** for the programming project: a weighted **edge list** in plain text:
 
 ```
 [num vertices]
@@ -55,6 +55,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 Some test input
 (from [Sedgwick + Wayne](http://algs4.cs.princeton.edu/43mst/)):
+
 + [tinyEWG.txt](http://algs4.cs.princeton.edu/43mst/tinyEWG.txt) (8 vertices, 16 edges)
 + [mediumEWG.txt](http://algs4.cs.princeton.edu/43mst/mediumEWG.txt) (250 vertices, 1,273 edges)
 + [1000EWG.txt](http://algs4.cs.princeton.edu/43mst/1000EWG.txt) (1,000 vertices, 8,433 edges)
