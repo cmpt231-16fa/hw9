@@ -35,7 +35,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   then *p* is also a shortest path from *u* to *v* in *G'*.
 1. **Programming project:** Implement **Prim's algorithm** for minimum spanning tree.
   Input format is discussed below. <br/>
-  You may use a library for priority queue
+  You may use a library for **priority queue**
   (e.g., [Python's `heapq`](https://docs.python.org/3.0/library/heapq.html));
   you don't have to implement it yourself.
   + *(12 pts)* Correct, working **code**.
@@ -44,13 +44,15 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   + *(4 pts extra credit)* A nice **graphical user interface**.
 
 **Input format**: a weighted **edge list** in plain text:
+
 ```
-<num vertices>
-<num edges>
-<source> <dest> <weight>
-<source> <dest> <weight>
+[num vertices]
+[num edges]
+[source] [dest] [weight]
+[source] [dest] [weight]
 ...
 ```
+
 Some test input
 (from [Sedgwick + Wayne](http://algs4.cs.princeton.edu/43mst/)):
 + [tinyEWG.txt](http://algs4.cs.princeton.edu/43mst/tinyEWG.txt) (8 vertices, 16 edges)
