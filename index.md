@@ -20,7 +20,9 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   + (b) *(4 pts)* Demonstrate **Prim's** algorithm on the graph,
     starting at vertex `a`.
     Illustrate the progress of the vertex **queue**.
-1. *(5 pts)* Demonstrate the **Bellman-Ford** algorithm
+  + (c) *(1 pt)* Find a **different** MST of this graph, other than
+    what you found in parts (a) and (b).
+1. *(4 pts)* Demonstrate the **Bellman-Ford** algorithm
   on the following weighted directed graph
   to find shortest-paths from the source `a`. <br/>
   Iterate over edges in lexicographic order,
