@@ -15,14 +15,17 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   Where there is a choice, consider vertices in **alphabetical** order,
   and edges in **lexicographic** order of endpoints:
     e.g., *(a,c)* < *(a, d)* < *(b, d)*.
-  + (a) *(4 pts)* Demonstrate **Kruskal's**
+  + (a) *(3 pts)* Demonstrate **Kruskal's**
     minimum spanning tree algorithm on the graph.
   + (b) *(4 pts)* Demonstrate **Prim's** algorithm on the graph,
     starting at vertex `a`.
-1. *(4 pts)* Demonstrate the **Bellman-Ford** algorithm
-  on the weighted directed graph below
-  for shortest-paths from the source `a`.
-  (Iterate over edges in lexicographic order.)
+    Illustrate the progress of the vertex **queue**.
+1. *(5 pts)* Demonstrate the **Bellman-Ford** algorithm
+  on the following weighted directed graph
+  to find shortest-paths from the source `a`. <br/>
+  Iterate over edges in lexicographic order,
+  and show `v.d` for all vertices after each iteration.
+  How many **iterations** were needed to achieve convergence? 
 1. Given a weighted undirected graph \`G = (V, E, w)\`
   with \`w(u,v) > 0, forall (u,v) in E\`,
   consider **increasing** each edge weight by 1: <br/>
