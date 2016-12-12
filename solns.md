@@ -7,7 +7,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 ### HW9 Solutions (40pts)
 + (1a) *(3 pts)* **Kruskal** on the following graph: <br/> 
-  ![MST](img/hw9-1.svg)
+  ![MST](/img/hw9-1.svg)
 
   ![hw9-1 solution](img/hw9-1-soln.svg)
 
