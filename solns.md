@@ -6,8 +6,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 ---
 
 ### HW9 Solutions (40pts)
-+ (1a) *(3 pts)* **Kruskal** on the following graph: <br/> 
-  ![MST](../img/hw9-1.svg)
++ (1a) *(3 pts)* **Kruskal** MST: <br/> 
 
   ![hw9-1 solution](../img/hw9-1ab.svg)
 
@@ -32,15 +31,16 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 + (1c) *(1 pt)* Find a **different** MST
 
+  Swap the `(c,f)` edge for `(f,g)`, both of weight 2:
+
   ![hw9-1c solution](../img/hw9-1c.svg)
 
 + (2) *(5 pts)* **Bellman-Ford** from source `a`:
   + How many **iterations** were needed to achieve convergence? 
-  + ![BF](../img/hw9-2.svg)
+  + ![BF solution](../img/hw9-2a.svg)
   + Pass 1: `a:0, b:4, c:9, d:2, e:9, f:3, g:inf, h:10`
   + Pass 2: `a:0, b:3, c:9, d:2, e:5, f:3, g:inf, h:6`
   + Pass 3: `a:0, b:3, c:8, d:2, e:5, f:3, g:inf, h:6`
-  + ![BF solution](../img/hw9-2a.svg)
 
 + (3a) *(3 pts)* **Prove** **MST**s are preserved by this transformation.
 
