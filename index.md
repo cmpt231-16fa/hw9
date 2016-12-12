@@ -9,7 +9,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 {% include programming.md %}
 
-### HW9 (40pts)
+### HW9 (40pts) [(solutions)](solns/)
 1. Consider the following **weighted undirected** graph: <br/> 
   ![MST](img/hw9-1.svg) <br/>
   Where there is a choice, consider vertices in **alphabetical** order,
