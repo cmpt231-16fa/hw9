@@ -9,7 +9,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 + (1a) *(3 pts)* **Kruskal** on the following graph: <br/> 
   ![MST](../img/hw9-1.svg)
 
-  ![hw9-1 solution](../img/hw9-1-soln.svg)
+  ![hw9-1 solution](../img/hw9-1ab.svg)
 
   In order, the edges selected are:
   `(c,g), (c,h), (e,f), (b,f), (c,f), (a,e), (d,h)`.
@@ -32,7 +32,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 + (1c) *(1 pt)* Find a **different** MST
 
-  ![hw9-1c solution](../img/hw9-1c-soln.svg)
+  ![hw9-1c solution](../img/hw9-1c.svg)
 
 + (2) *(5 pts)* **Bellman-Ford** from source `a`:
   + How many **iterations** were needed to achieve convergence? 
@@ -40,7 +40,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   + Pass 1: `a:0, b:4, c:9, d:2, e:9, f:3, g:inf, h:10`
   + Pass 2: `a:0, b:3, c:9, d:2, e:5, f:3, g:inf, h:6`
   + Pass 3: `a:0, b:3, c:8, d:2, e:5, f:3, g:inf, h:6`
-  + ![BF solution](../img/hw9-2-soln.svg)
+  + ![BF solution](../img/hw9-2a.svg)
 
 + (3a) *(3 pts)* **Prove** **MST**s are preserved by this transformation.
 
@@ -86,7 +86,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   its number of edges, so the direct path from `a` to `d`
   becomes the shortest one.
 
-  ![hw9-3b-soln](../img/hw9-3b-soln.svg)
+  ![hw9-3b-soln](../img/hw9-3b.svg)
 
 + (4) **Programming project:** Implement **Prim**
   + *(12 pts)* Correct, working **code**.
