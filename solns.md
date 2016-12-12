@@ -17,7 +17,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 + (1b) *(4 pts)* **Prim** starting at vertex `a`.
     Illustrate the progress of the vertex **queue**.
-
+  <br/><br/>
   Vertex queue:
   + `a:0`
   + `b:4, e:3`
